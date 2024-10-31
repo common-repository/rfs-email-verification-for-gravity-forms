@@ -1,0 +1,281 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: RFS Email Verification for Gravity Forms\n"
+"POT-Creation-Date: 2024-06-30 12:05+0200\n"
+"PO-Revision-Date: 2024-06-30 12:05+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 "
+"|| n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: src\n"
+"X-Poedit-SearchPathExcluded-2: dist\n"
+
+#: classes/GF_Email_Verification_Addon.php:136 classes/Helpers.php:343
+msgid "PRO Version"
+msgstr "Wersja PRO"
+
+#: classes/GF_Email_Verification_Addon.php:231
+#: classes/GF_Email_Verification_Field.php:49
+msgid "Email Verification Code"
+msgstr "Kod weryfikacyjny"
+
+#: classes/GF_Email_Verification_Addon.php:232
+msgid "The field has already been added to the form. One per form is allowed."
+msgstr ""
+"Pole zostało już dodane do formularza. Dozwolone jest jedno pole na "
+"formularz."
+
+#: classes/GF_Email_Verification_Addon.php:233
+msgid "Please make sure to also add an email field into your form."
+msgstr "Upewnij się, że w formularzu dodano również pole adresu e-mail."
+
+#: classes/Gravity_Forms.php:188
+msgid "Verification code"
+msgstr "Kod weryfikacyjny"
+
+#: classes/Gravity_Forms.php:192
+msgid "Site title"
+msgstr "Tytuł strony"
+
+#: classes/Gravity_Forms.php:196
+msgid "Admin email"
+msgstr "E-mail admina"
+
+#: classes/Gravity_Forms.php:592
+msgid "Available in PRO"
+msgstr "Dostępne w wersji PRO"
+
+#: classes/Gravity_Forms.php:597
+msgid "General"
+msgstr "Ogólne"
+
+#: classes/Gravity_Forms.php:600
+msgid "Send Code button text"
+msgstr "Tekst przycisku do wysyłki kodu"
+
+#: classes/Gravity_Forms.php:604
+msgid "Send verification code"
+msgstr "Wyślij kod weryfikacyjny"
+
+#: classes/Gravity_Forms.php:608
+msgid "Show resend button"
+msgstr "Pokaż przycisk ponownego wysłania"
+
+#: classes/Gravity_Forms.php:609
+msgid "Allow users to resend the code"
+msgstr "Zezwalal użytkownikom na ponowne wysłanie kodu"
+
+#: classes/Gravity_Forms.php:616
+msgid "Resend Code button text"
+msgstr "Tekst przycisku do ponownej wysyłki kodu"
+
+#: classes/Gravity_Forms.php:620
+msgid "Resend the code"
+msgstr "Wyślij kod ponownie"
+
+#: classes/Gravity_Forms.php:625
+msgid "Resend interval"
+msgstr "Interwał ponownego wysłania"
+
+#: classes/Gravity_Forms.php:626
+msgid "Enter number of seconds. Set to -1 to disable."
+msgstr "Wprowadź liczbę minut. Ustaw na -1, aby nigdy nie wygasło."
+
+#: classes/Gravity_Forms.php:627
+msgid ""
+"This option prevents hitting the resend button multiple times in a row, "
+"which would result in sending multiple emails."
+msgstr ""
+"Opcja ta zapobiega wielokrotnemu naciskaniu przycisku ponownego wysłania, co "
+"skutkowałoby wysłaniem wielu wiadomości e-mail."
+
+#: classes/Gravity_Forms.php:639
+msgid "Resend interval text"
+msgstr "Tekst interwału ponownej wysyłki"
+
+#: classes/Gravity_Forms.php:640
+msgid "Use {resend_counter} tag to display counter."
+msgstr "Użyj tagu {resend_counter} , aby wyświetlić odliczanie."
+
+#: classes/Gravity_Forms.php:649
+msgid "Code expiry time"
+msgstr "Czas wygaśnięcia kodu"
+
+#: classes/Gravity_Forms.php:650
+msgid "Enter number of minutes. Set to -1 to never expire."
+msgstr "Wprowadź liczbę minut. Ustaw na -1, aby nigdy nie wygasło."
+
+#: classes/Gravity_Forms.php:651
+msgid ""
+"The code will auto expire after submitting the form or reloading the page, "
+"regardless of this setting."
+msgstr ""
+"Kod nadal wygaśnie po wysłaniu formularza lub odświeżeniu strony, bez "
+"względu na to ustawienie."
+
+#: classes/Gravity_Forms.php:663
+msgid "Code sent message - verification code field"
+msgstr "Wiadomość o wysłaniu kodu - pole kodu weryfikacyjnego"
+
+#: classes/Gravity_Forms.php:665
+msgid ""
+"The verification code has been sent to your email address. It will be valid "
+"for 5 minutes."
+msgstr ""
+"Kod weryfikacyjny został wysłany na Twój adres e-mail. Będzie ważny przez 5 "
+"minut."
+
+#: classes/Gravity_Forms.php:670
+msgid "Code sent message - email field"
+msgstr "Wiadomość o wysłaniu kodu - pole e-mail"
+
+#: classes/Gravity_Forms.php:671
+msgid ""
+"This message will display in cases where the fields are on different pages "
+"of multi-page form."
+msgstr ""
+"Ta wiadomość będzie wyświetlana w przypadkach, gdy pola znajdują się na "
+"różnych stronach formularza wielostronicowego."
+
+#: classes/Gravity_Forms.php:673
+msgid ""
+"The verification code has been sent to your email address. Go to the next "
+"page to enter the code. It will be valid for 2 minutes."
+msgstr ""
+"Kod weryfikacyjny został wysłany na Twój adres e-mail. Przejdź do następnej "
+"strony, aby wprowadzić kod. Będzie ważny przez 2 minuty."
+
+#: classes/Gravity_Forms.php:681
+msgid "Email"
+msgstr "E-mail"
+
+#: classes/Gravity_Forms.php:684
+msgid "Email subject"
+msgstr "Temat wiadomości e-mail"
+
+#: classes/Gravity_Forms.php:692
+msgid "Email from"
+msgstr "E-mail od"
+
+#: classes/Gravity_Forms.php:700
+msgid "Email message"
+msgstr "Treść wiadomości e-mail"
+
+#: classes/Gravity_Forms.php:702
+msgid "Your verification code is: {verification_code}"
+msgstr "Twój kod weryfikacyjny to: {verification_code}"
+
+#: classes/Gravity_Forms.php:711
+msgid "Multi-Page"
+msgstr "Wielostronicowy"
+
+#: classes/Gravity_Forms.php:714
+msgid "Send code button display"
+msgstr "Wyświetlanie przycisku do wysyłki kodu"
+
+#: classes/Gravity_Forms.php:721
+msgid "Same page as Verification Code field"
+msgstr "Ta sama strona co pole Kod Weryfikacyjny"
+
+#: classes/Gravity_Forms.php:725
+msgid "Same page as Email field"
+msgstr "Ta sama strona co pole E-mail"
+
+#: classes/Gravity_Forms.php:731
+msgid "Send code button behaviour"
+msgstr "Zachowanie przycisku do wysyłki kodu"
+
+#: classes/Gravity_Forms.php:732
+msgid ""
+"Use this option in cases where the Email and Code Verification fields are on "
+"different pages and button display is set to \"Same page as Email field\""
+msgstr ""
+"Użyj tej opcji w przypadkach, gdy pola adresu e-mail i kodu znajdują się na "
+"różnych stronach, a wyświetlanie przycisku jest ustawione na \"Ta sama "
+"strona co pole E-mail\"."
+
+#: classes/Gravity_Forms.php:739
+msgid "Default"
+msgstr "Domyślne"
+
+#: classes/Gravity_Forms.php:743
+msgid "Go to the next page after sending the code"
+msgstr "Przejdź do następnej strony po wysłaniu kodu"
+
+#: classes/Gravity_Forms.php:770
+msgid "Ajax"
+msgstr "Ajax"
+
+#: classes/Gravity_Forms.php:773
+msgid "Ajax request helper"
+msgstr "Wspomaganie zapytania ajax"
+
+#: classes/Gravity_Forms.php:774
+msgid ""
+"Enable this setting if you are experiencing issues with sending the code."
+msgstr "Włącz to ustawienie, jeśli występują problemy z wysyłaniem kodu."
+
+#: classes/Gravity_Forms.php:806
+msgid "The email address entered is invalid."
+msgstr "Wprowadzony adres e-mail jest nieprawidłowy."
+
+#: classes/Gravity_Forms.php:809
+msgid "The verification code entered is invalid."
+msgstr "Wprowadzony kod weryfikacyjny jest nieprawidłowy."
+
+#: classes/Gravity_Forms.php:811
+msgid "Unexpected error occured. The code could not be sent."
+msgstr "Wystąpił nieoczekiwany błąd. Kod nie mógł zostać wysłany."
+
+#: classes/Gravity_Forms.php:812
+msgid "Unexpected error occured."
+msgstr "Wystąpił nieoczekiwany błąd."
+
+#: classes/Helpers.php:338
+#, php-format
+msgid ""
+"Enjoying the %1$s plugin? Get %2$s to get more features and premium support. "
+msgstr ""
+"Podoba Ci się wtyczka %1$s? Pobierz %2$s aby uzyskać więcej funkcji i "
+"wsparcie premium. "
+
+#: classes/Plugin.php:173
+msgid ""
+"plugin could not be activated. It requires active Gravity Forms plugin to "
+"work. "
+msgstr ""
+"wtyczka nie mogła zostać aktywowana. Do działania wymaga aktywnej wtyczki "
+"Gravity Forms. "
+
+#: classes/Plugin.php:206
+msgid "Get PRO Version"
+msgstr "Pobierz wersję PRO"
+
+#: classes/Plugin.php:219
+msgid "Documentation"
+msgstr "Dokumentacja"
+
+#: classes/Plugin.php:220
+msgid "Support"
+msgstr "Wsparcie"
+
+#~ msgid "Enter number of seconds"
+#~ msgstr "Wprowadź liczbę sekund"
+
+#~ msgid ""
+#~ "Available dynamic tags are: {site_title} {admin_email} {verification_code}"
+#~ msgstr ""
+#~ "Dostępne dynamiczne znaczniki to: {site_title} {admin_email} "
+#~ "{verification_code}"
+
+#~ msgid "RFS Woo Advanced Cart"
+#~ msgstr "RFS Woo Zaawansowany Koszyk"

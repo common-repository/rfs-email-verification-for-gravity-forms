@@ -1,0 +1,24 @@
+#tab_rfs-email-verification-for-gravity-forms {
+  .gform-dropdown__container {
+    .gform-dropdown__list {
+      .gform-dropdown__group:nth-last-child(2) {
+        display: none;
+      }
+    }
+  }
+
+  .gform-settings-panel__content input[type="number"] {
+    width: 100%;
+  }
+}
+
+.gforms_edit_form .button.gform_vc_button {
+  margin-right: 10px;
+}
+
+#gform-settings-section-multi-page-available-in-pro,
+#gform_setting_rfs-email-verification-for-gravity-forms-button-show-resend {
+  .gform-settings-input__container {
+    opacity: 0.8;
+  }
+}
